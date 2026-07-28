@@ -1,66 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h2>HTML Table</h2>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">BrandName</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Aging</th>
-    <th>Native to</th>
-  </tr>
-  <tr>
-    <td>Chihuahua</td>
-    <td>The average lifespan of a Chihuahua is 14 to 16 years.</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Doberman</td>
-    <td>A Doberman average overall lifespan ranges from 9 to 12 years.</td>
-    <td>Apolda, Thuringia, Germany</td>
-  </tr>
-  <tr>
-    <td>Rottweiler</td>
-    <td>The average lifespan of a Rottweiler is 8 to 11 years old.</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Cane Corso</td>
-    <td>A Cane Corso lifespan is 10 to 12 years old.</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>Dachshund</td>
-    <td>Dachshunds have an average lifespan of 12 to 16 years.</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Pug</td>
-    <td>A Pugs lifespand is 12 to 15 years old.</td>
-    <td>China</td>
-  </tr>
-</table>
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Website</h1>
+            <p>We build modern, responsive web experiences from scratch.</p>
+            <button onclick="toggleAlert()" class="cta-btn">Get Started</button>
+        </div>
+    </header>
+ <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>Beautiful, minimalist, and user-friendly layouts.</p>
+            </div>
+            <div class="card">
+                <h3>Development</h3>
+                <p>Fast, clean, and reliable code optimization.</p>
+            </div>
+            <div class="card">
+                <h3>SEO Marketing</h3>
+                <p>Grow your digital footprint and rank higher.</p>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer id="contact">
+      <p>&copy; 2026 BrandName. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
