@@ -111,12 +111,12 @@ background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://unsp
 
 .card h3 {
     margin-bottom: 15px;
-    color: burlywood;
+    color: black;
 }
 
 /* Footer */
 footer {
-    background-color: #111;
+    background-color: white;
     color: #408ff6;
     text-align: center;
     padding: 20px;
