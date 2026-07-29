@@ -55,7 +55,7 @@ background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://unsp
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: rgb(151, 229, 255);
 }
 
 .hero-content h1 {
