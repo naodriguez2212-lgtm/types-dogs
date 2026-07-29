@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: burlywood;
+    background-color: rgb(151, 229, 255);
     padding: 20px 10%;
     position: sticky;
     top: 0;
